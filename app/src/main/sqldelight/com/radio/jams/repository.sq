@@ -1,0 +1,22 @@
+CREATE TABLE repositoryTable (
+  id INTEGER NOT NULL PRIMARY KEY,
+  full_name TEXT NOT NULL
+);
+
+selectById:
+SELECT *
+FROM repositoryTable
+WHERE id = ?;
+
+selectAll:
+SELECT *
+FROM repositoryTable
+ORDER BY id;
+
+insertRepo:
+INSERT OR REPLACE INTO repositoryTable(id, full_name)
+VALUES (?, ?);
+
+deleteRepo:
+DELETE FROM repositoryTable
+WHERE id = ?;
