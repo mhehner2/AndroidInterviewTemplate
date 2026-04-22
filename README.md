@@ -11,4 +11,5 @@ Tasks:
 3. (Optional) Add pagination functionality.
 4. Push your code to GitHub.
 
-![app](https://gh.riotgames.com/ext-jskripkauskas/AndroidInterviewTemplate1/blob/template/app.png)
+<img width="324" height="575" alt="interviewTemplateImage" src="https://github.com/user-attachments/assets/c3609ef9-e460-4b69-b2bc-ac88670de12c" />
+
